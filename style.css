@@ -2,7 +2,15 @@
 h1{
     font-family: 'Inter', sans-serif;
     font-size: 96px;
+    display: flex;
+    align-items:center;
+    justify-content:center
 }
 a{
     text-decoration:none;
+}
+.icons{
+    display: flex;
+    align-items:center;
+    justify-content:center;
 }
