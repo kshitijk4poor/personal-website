@@ -3,15 +3,25 @@ h1{
     font-family: 'Inter', sans-serif;
     font-size: 96px;
     display: flex;
+    flex-wrap:wrap;
     align-items:center;
     justify-content:center;
+    align-self:center;
 }
 a{
     text-decoration:none;
 }
 .icons{
+    height:47px;
+    width: 261px;
+}
+.icons .flex{
+    justify-content:space-between;
+}
+.flex{
     display: flex;
+    flex-direction: row;
     align-items:center;
-    justify-content:center;
-    align-self:center;
+    justify-content: center;
+    height: 100%;
 }
