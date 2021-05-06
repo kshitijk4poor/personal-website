@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+:root{
+    --primary-color:#FFFFFF;
+    --secondary-color:#262626;
+}
+.dark-theme{
+    --primary-color:#222222;
+    --secondary-color:#FFFFFF;
+}
+body{
+    background: var(--primary-color);
+}
 h1 {
   font-family: "Inter", sans-serif;
   font-size: 96px;
@@ -7,7 +18,7 @@ h1 {
   align-items: center;
   justify-content: center;
   margin-top: 194px;
-  color: #262626;
+  color: var(--secondary-color);
 }
 .icons {
   display: flex;
