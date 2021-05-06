@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 h1{
+    color:#262626;
     font-family: 'Inter', sans-serif;
     font-size: 96px;
     display: flex;
@@ -7,6 +8,7 @@ h1{
     align-items:center;
     justify-content:center;
     align-self:center;
+    
 }
 a{
     text-decoration:none;
